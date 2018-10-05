@@ -10,5 +10,5 @@ Icon=sketchup
 Category=Software
 ScriptPath=zero-lliurex-sketchup.zmd
 Groups=adm;admins;teachers;others;students
-Using=pe
+Using=pkexec
 Modal=True
