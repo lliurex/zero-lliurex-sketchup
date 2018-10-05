@@ -1,0 +1,14 @@
+Name=zero-lliurex-sketchup
+Name[es]=Instalador del Google Sketchup
+Name[qcv]=Instal·lador del Google Sketchup
+Name[ca_ES]=Instal·lador del Google Sketchup
+Comment=Google Sketchup Installer
+Comment[es]=Instalador del Google Sketchup
+Comment[qcv]=Instal·lador del Google Sketchup
+Comment[ca_ES]=Instal·lador del Google Sketchup
+Icon=sketchup
+Category=Software
+ScriptPath=zero-lliurex-sketchup.zmd
+Groups=adm;admins;teachers;others;students
+Using=pe
+Modal=True

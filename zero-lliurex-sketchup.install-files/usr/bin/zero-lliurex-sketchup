@@ -1,0 +1,61 @@
+#!/bin/bash
+
+MSG_NO_INTERNET="No Internet Connection has been detected. Please, check it"
+MSG_BAJAR="Google Sketchup will now be downloaded. Aprox. size 38,6MB"
+TEST_FILE="/tmp/wget.test"
+HW_OK_SET_REF_FILE="/tmp/hw_ok_set.reg"
+
+if [ -e $TEST_FILE ]; then
+	rm -rf $TEST_FILE
+fi
+
+if [ -e $HW_OK_SET_REF_FILE ]; then
+	rm -rf $HW_OK_SET_REF_FILE
+fi
+
+case "$1" in
+	"-f"|"--path_to_file")
+		if [ ! -e "$2" ]; then
+			echo "No existe el fichero "$2" o no es accesible" 1>&2
+			exit 1
+		fi
+		wine "$2"
+		linea1="[HKEY_CURRENT_USER\\Software\\Google\\SketchUp8\\GLConfig\\Display]"
+		linea2="\"HW_OK\"=dword:00000001"
+		echo $linea1 > $HW_OK_SET_REF_FILE
+		echo $linea2 >> $HW_OK_SET_REF_FILE
+		regedit $HW_OK_SET_REF_FILE
+		;;
+	"-g"|"--get_file_from_internet")
+		rc=0
+		host dl.google.com || rc=1
+		if [ $rc -eq 0 ]; then
+			wget -O /tmp/wget.test http://www.lliurex.net/recursos/wget.test --tries=2 --timeout=5
+			if [ -e $TEST_FILE ]; then
+				wget -O /tmp/GoogleSketchUpWES.exe http://dl.google.com/sketchup/GoogleSketchUpWES.exe -c
+			else
+				export http_proxy="http://proxy:3128"
+				wget -O /tmp/test http://www.lliurex.net/recursos/wget.test
+				if [ -e $TEST_FILE ]; then
+					wget -O /tmp/GoogleSketchUpWES.exe http://dl.google.com/sketchup/GoogleSketchUpWES.exe -c
+				else
+					echo "$MSG_NO_INTERNET"
+					exit 1
+				fi
+			fi
+		else
+			echo "$MSG_NO_INTERNET"
+			exit 1
+		fi
+		wine "/tmp/GoogleSketchUpWES.exe"
+		linea1="[HKEY_CURRENT_USER\\Software\\Google\\SketchUp8\\GLConfig\\Display]"
+		linea2="\"HW_OK\"=dword:00000001"
+		echo $linea1 > $HW_OK_SET_REF_FILE
+		echo $linea2 >> $HW_OK_SET_REF_FILE
+		regedit $HW_OK_SET_REF_FILE
+		;;
+	*)	echo "usage:  zero-lliurex-sketchup -f (--path_to_file_google) | -g (--get_file_from_internet)"
+		;;
+esac
+
+exit 0

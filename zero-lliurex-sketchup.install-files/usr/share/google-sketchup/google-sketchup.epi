@@ -1,0 +1,9 @@
+{
+	"type":"file",
+	"pkg_list":[{"name":"google-sketchup","version":{"all":"GoogleSketchUpWES.exe"},"key_store":"zero-lliurex-sketchup","url_download":"http://dl.google.com/sketchup/"}],
+	"script": {"name":"/usr/share/google-sketchup/google-sketchup_script","remove":true,"getStatus":true},
+	"required_x":true,
+	"required_root":true,
+	"zomando":"zero-lliurex-sketchup"
+
+	}

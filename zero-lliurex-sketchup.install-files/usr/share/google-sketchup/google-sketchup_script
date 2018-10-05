@@ -1,0 +1,57 @@
+#!/bin/bash
+
+
+ACTION="$1"
+PKG="$2"
+USERHOME=$(getent passwd $USER | cut -f6 -d ':')
+DESKTOP_PATH=$USERHOME"/.local/share/applications/wine/Programs/Google SketchUp 8/Google SketchUp.desktop"
+
+case $ACTION in
+
+
+	getStatus)
+
+		case $PKG in
+			
+			google-sketchup)
+				if [ -f "${DESKTOP_PATH}" ];then
+					echo 0
+				else
+					echo 1
+				fi
+			;;
+		esac
+	;;		
+				
+	installPackage)
+
+		echo "Launching installation wizard..."
+
+		su $USER -c "wine /var/cache/epi-downloads/GoogleSketchUpWES.exe"
+		su $USER -c "regedit /usr/share/google-sketchup/hw_ok_set.reg"
+
+		echo "Ending installation..."
+		sleep 2
+		
+		if ! [ -f "${DESKTOP_PATH}" ];then
+			exit 1
+		fi		
+
+
+	;;
+
+	remove)
+
+		echo "Launching uninstall wizard..."
+		
+		su $USER -c "wine uninstaller"
+		if [ -f "${DESKTOP_PATH}" ];then
+			rm -f "${DESKTOP_PATH}"
+		fi
+
+		
+	;;	
+	
+esac
+
+exit 0	

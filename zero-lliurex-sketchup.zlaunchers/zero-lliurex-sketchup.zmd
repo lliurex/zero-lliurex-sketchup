@@ -1,0 +1,5 @@
+#!/bin/bash
+
+epi-gtk /usr/share/google-sketchup/google-sketchup.epi
+
+exit 0

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-sketchup</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-sketchup</name>
+<name xml:lang="es">Instalador del Google Sketchup</name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador del Google Sketchup</name>
+<name xml:lang="ca_ES@valencia">Instal·lador del Google Sketchup</name>
+<name xml:lang="ca_ES">Instal·lador del Google Sketchup</name>
+<summary>Google Sketchup Installer</summary>
+<summary xml:lang="es">Instalador del Google Sketchup</summary>
+<summary xml:lang="ca_ES@valencia">Instal·lador del Google Sketchup</summary>
+<summary xml:lang="ca_ES">Instal·lador del Google Sketchup</summary>
+<description>
+<p>Google Sketchup Installer. Its main characteristic is to be able to realize designs in 3D in an easy way. The program includes among its resources a video tutorial to learn step by step how you can design and model your own environment. It allows to conceptualize and model 3D images of buildings, cars, people and any object or article that the designer or cartoonist imagine, and the program includes a gallery of objects, textures and images ready to download.</p>
+<p xml:lang="es">Instalador del Google Sketchup. Su principal característica es poder realizar diseños en 3D de forma sencilla. El programa incluye entre sus recursos un tutorial en   vídeo para aprender paso a paso cómo se puede diseñar y modelar el propio ambiente. Permite conceptualizar y modelar imágenes en 3D de edificios, coches, personas y cualquier objeto o       artículo que imagine el diseñador o dibujante, además de que el programa incluye una galería de objetos, texturas e imágenes listas para descargar.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">Instal·lador del Google Sketchup. La seua principal característica és poder realitzar dissenys en 3D de forma senzilla. El programa inclou entre els seus recursos un tutorial en vídeo per aprendre pas a pas com es pot dissenyar i modelar el propi ambient. Permet conceptualitzar i modelar imatges en 3D d'edificis, cotxes, persones i qualsevol objecte o article que imagine el dissenyador o dibuixant, a més que el programa inclou una galeria d'objectes, textures i imatges llestes per descarregar.</p>
+<p xml:lang="ca_ES@valencia">Instal·lador del Google Sketchup. La seua principal característica és poder realitzar dissenys en 3D de forma senzilla. El programa inclou entre els seus recursos un tutorial en vídeo per aprendre pas a pas com es pot dissenyar i modelar el propi ambient. Permet conceptualitzar i modelar imatges en 3D d'edificis, cotxes, persones i qualsevol objecte o article que imagine el dissenyador o dibuixant, a més que el programa inclou una galeria d'objectes, textures i imatges llestes per descarregar.</p>
+<p xml:lang="ca_ES">Instal·lador del Google Sketchup. La seva principal característica és poder realitzar dissenys en 3D de forma senzilla. El programa inclou entre els seus recursos un tutorial en vídeo per aprendre pas a pas com es pot dissenyar i modelar el propi ambient. Permet conceptualitzar i modelar imatges en 3D d'edificis, cotxes, persones i qualsevol objecte o article que imagini el dissenyador o dibuixant, a més que el programa inclou una galeria d'objectes, textures i imatges llestes per descarregar.</p>
+</description>
+<categories>
+<category>Lliurex</category>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">sketchup</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>sketchup</keyword>
+<keyword>zero-lliurex-sketchup</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>Instalador</keyword>
+<keyword>del</keyword>
+<keyword>Google</keyword>
+<keyword>Sketchup</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Zomando</keyword>
+
+</keywords>
+</component>
