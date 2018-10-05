@@ -42,7 +42,7 @@ case $ACTION in
 
 		echo "Launching uninstall wizard..."
 		
-		su $USER -c "wine uninstaller"
+		su -c "wine uninstaller" $MUSER
 		if [ -f "${DESKTOP_PATH}" ];then
 			rm -f "${DESKTOP_PATH}"
 		fi
