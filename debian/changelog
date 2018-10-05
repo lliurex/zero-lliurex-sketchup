@@ -1,0 +1,168 @@
+zero-lliurex-sketchup (0.23) xenial; urgency=medium
+
+  * Implemented changes to use EPI
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 27 Apr 2018 12:12:15 +0200
+
+zero-lliurex-sketchup (0.22-lliurex3) xenial; urgency=medium
+
+  * Removed deprecated locale
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 22 Jun 2017 09:23:11 +0200
+
+zero-lliurex-sketchup (0.22-lliurex2) xenial; urgency=medium
+
+  * Fixed zomando desktop (wrong icon path)
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 30 May 2017 16:43:46 +0200
+
+zero-lliurex-sketchup (0.22-lliurex1) xenial; urgency=medium
+
+  * Added metainfo
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 30 May 2017 13:08:14 +0200
+
+zero-lliurex-sketchup (0.22) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 03 Feb 2016 08:12:28 +0100
+
+zero-lliurex-sketchup (0.19.21) trusty; urgency=high
+
+  * bug fixed in net down 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 20 Apr 2015 09:50:01 +0200
+
+zero-lliurex-sketchup (0.19.2) trusty; urgency=medium
+
+  * Upgrading script for visual information in the install
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 23 Mar 2015 12:01:29 +0100
+
+zero-lliurex-sketchup (0.19.1) trusty; urgency=medium
+
+  * Upgrading for trusty 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 19 Jan 2015 17:01:56 +0100
+
+zero-lliurex-sketchup (0.19) precise; urgency=low
+
+  * Added ca_ES@valencia.po 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 28 Feb 2014 11:51:27 +0100
+
+zero-lliurex-sketchup (0.18) precise; urgency=low
+
+  * png file moved 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Thu, 13 Feb 2014 09:10:08 +0100
+
+zero-lliurex-sketchup (0.17) precise; urgency=low
+
+  * First release for new zero-center 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Tue, 11 Feb 2014 13:35:09 +0100
+
+zero-lliurex-sketchup (0.16) precise; urgency=low
+
+  * Added key to registry 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 25 Nov 2013 09:06:17 +0100
+
+zero-lliurex-sketchup (0.15) precise; urgency=low
+
+  * Fixed binary 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 25 Nov 2013 08:14:59 +0100
+
+zero-lliurex-sketchup (0.14) precise; urgency=low
+
+  * Fixed binary 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 22 Nov 2013 12:23:30 +0100
+
+zero-lliurex-sketchup (0.13) precise; urgency=low
+
+  * Added binary 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 22 Nov 2013 10:05:42 +0100
+
+zero-lliurex-sketchup (0.12) precise; urgency=low
+
+  * Adding timeout and tries to internet test connection 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Thu, 07 Nov 2013 10:18:24 +0100
+
+zero-lliurex-sketchup (0.11) precise; urgency=low
+
+  * Removed n4d to test internet connection.
+  * Added wget.test and testing method. 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Tue, 29 Oct 2013 11:55:46 +0100
+
+zero-lliurex-sketchup (0.10) precise; urgency=low
+
+  * Added n4d to test internet conection 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Thu, 19 Sep 2013 09:15:45 +0200
+
+zero-lliurex-sketchup (0.9.1) precise; urgency=low
+
+  * Updated messages 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Sat, 01 Jun 2013 17:40:49 +0200
+
+zero-lliurex-sketchup (0.9) precise; urgency=low
+
+  * Fixing ancient-standards-version 3.8.4 (current is 3.9.3) 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 10 Dec 2012 08:23:13 +0100
+
+zero-lliurex-sketchup (0.8) precise; urgency=low
+
+  * Added llxcfg-runtime dependence 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 28 Nov 2012 09:44:35 +0100
+
+zero-lliurex-sketchup (0.7) precise; urgency=low
+
+  * Section and priority 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Thu, 15 Nov 2012 08:21:07 +0100
+
+zero-lliurex-sketchup (0.6) precise; urgency=low
+
+  * First release for pandora
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 14 Nov 2012 11:22:05 +0100
+
+zero-lliurex-sketchup (0.5) unstable; urgency=low
+
+  *  Adding others and students to desktop
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 18 Jul 2012 09:01:18 +0200
+
+zero-lliurex-sketchup (0.4) unstable; urgency=low
+
+  * Fixed internet connection fail
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 06 Jul 2012 08:03:31 +0200
+
+zero-lliurex-sketchup (0.3) unstable; urgency=low
+
+  * Testing lliurex client aula
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 23 May 2012 13:08:01 +0200
+
+zero-lliurex-sketchup (0.2) unstable; urgency=low
+
+  * Changing internet test conection
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 23 May 2012 08:31:01 +0200
+
+zero-lliurex-sketchup (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 23 Apr 2012 09:01:22 +0200
