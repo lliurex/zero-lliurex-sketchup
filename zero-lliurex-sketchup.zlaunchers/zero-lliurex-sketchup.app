@@ -9,6 +9,6 @@ Comment[ca_ES]=Instal·lador del Google Sketchup
 Icon=sketchup
 Category=Software
 ScriptPath=zero-lliurex-sketchup.zmd
-Groups=adm;admins;teachers;others;students
+Groups=sudo;admins;teachers;others;students
 Using=pkexec
 Modal=True
